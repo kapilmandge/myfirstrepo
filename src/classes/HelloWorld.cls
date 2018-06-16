@@ -8,7 +8,7 @@ public class HelloWorld{
     public void sayMe() { 
     	WS4SFDC.WS4SFDCSoap obj = new WS4SFDC.WS4SFDCSoap();
     	WS4SFDC.Person person = new WS4SFDC.Person();
-    	person.Username='Hello this is kapil from dot net';
+    	person.Username='Hello this is kapil from dot net WS';
         System.debug( 'me=' + obj.HelloWorld(person) );
     }
 }
