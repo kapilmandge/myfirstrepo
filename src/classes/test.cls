@@ -11,7 +11,8 @@ public class test{
                 listAccInsert.add(b);  
                 // insert list of accounts  
                 insert listAccInsert;  
-                system.debug('Trigger Entry Count111 : '+ Constants.triggerEntryCount);   
+                system.debug('Trigger Entry Count111 : '+ Constants.triggerEntryCount);
+                system.debug('test branch');   
                   
             }   
 }
